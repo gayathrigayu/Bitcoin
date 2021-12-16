@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-     "build": " rollup -c",
+    "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear"
   },
-  "devDependencies": {https://github.com/gayathrigayu/Bitcoin/blob/main/package.json
+  "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
