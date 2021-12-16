@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-     "sassgelcustom": "node-sass src/sass/app.scss  public/build/css/bundle.css  --source-map true --output-style compressed --source-map-contents true",
-    "build": "sassgelcustom rollup -c",
+     "build": " rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear"
   },
-  "devDependencies": {
+  "devDependencies": {https://github.com/gayathrigayu/Bitcoin/blob/main/package.json
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
