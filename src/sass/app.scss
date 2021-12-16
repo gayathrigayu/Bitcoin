@@ -1,0 +1,289 @@
+$summaryboxcolor: #e1e7f3;
+$summaryboxcolor2: #d0d8e9;
+$bodycolor: #333;
+$primary: #ccc;
+$textcolor: #0a1562;
+$p-r-10:10px;
+$p-r-5:5px;
+$total:#141440;
+$white: #fff;
+$bg-color:#fcfcfc;
+
+body {
+    background-color: $bg-color !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+    main {
+        text-align: center;
+        padding: 1em;
+        max-width: 100%;
+        margin: 0 auto;
+        -webkit-box-shadow: 4px 2px 15px 0px rgba(0, 0, 0, 0.82);
+        box-shadow: 4px 2px 15px 0px rgba(0, 0, 0, 0.82);
+
+        @media (min-width:1200px) {
+
+            max-width: 1400px;
+
+        }
+
+
+        li {
+            font-size: 18px;
+            min-width: 20%;
+            border: 0;
+        }
+
+        li.active {
+            border: 0;
+            border-bottom: solid #689eef;
+
+            span {
+                border: 0 !important;
+            }
+        }
+
+        .sel_tab {
+            display: inline-block;
+            flex-wrap: wrap;
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+
+            @media (min-width:1200px) {
+
+                max-width: 1400px;
+                margin: 30px;
+
+            }
+
+            label {
+                text-align: left;
+                margin-bottom: 10px;
+            }
+
+            .flag-return {
+                cursor: pointer
+            }
+
+
+            .dropdown-toggle {
+                text-align: left;
+                margin-bottom: 0;
+                padding: 10px;
+                width: 100%;
+            }
+
+            .equal-div {
+                margin: 20px;
+            }
+
+            .btn-secondary,
+            .btn-check:active+.btn-secondary:focus,
+            .btn-check:checked+.btn-secondary:focus,
+            .btn-secondary.active:focus,
+            .btn-secondary:active:focus,
+            .show>.btn-secondary.dropdown-toggle:focus {
+                color: #000 !important;
+                background-color: #f1f1f1 !important;
+                border: 0
+            }
+
+            .equals {
+                border-radius: 50px;
+                background-color: #e4efff;
+                width: 40px;
+                height: 40px;
+                color: #9090e9;
+                font-size: 40px;
+                font-weight: bold;
+                line-height: 30px;
+                float: left;
+            }
+
+            .equals-border {
+                border: 1px solid #ebebeb;
+                height: 20px;
+                border-right: 0;
+                border-left: 0;
+                max-width: 80%;
+                display: grid;
+                margin-left: 60px;
+                margin-top: 10px;
+            }
+
+            .dropdown-toggle:after {
+                float: right;
+                margin-top: 10px;
+            }
+
+            .sell-btn {
+                min-width: 200px;
+                padding: 10px;
+                float: right;
+                background: #7070fd;
+                color: #fff;
+                font-size: 20px;
+                margin-top: 20px;
+            }
+
+
+
+        }
+
+
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: $bodycolor;
+        }
+
+        label {
+            display: block;
+        }
+
+        input,
+        button,
+        select,
+        textarea {
+            font-family: inherit;
+            font-size: inherit;
+            -webkit-padding: 0.4em 0;
+            padding: 10px;
+            margin: 0 0 0.5em 0;
+            box-sizing: border-box;
+            border-radius: 4px;
+            background: #f1f1f1;
+            border: 0;
+        }
+
+        input:disabled {
+            color: #ccc;
+        }
+
+        button {
+            background-color: $primary;
+            border: 0;
+            color: $textcolor;
+            border: 4px;
+        }
+
+        .flag-return {
+            padding: 10px;
+
+            img {
+                float: left
+            }
+
+            button {
+                display: contents
+            }
+        }
+
+        .exchange {
+
+            margin: 10px;
+            text-align: left;
+
+            .firstexchange {
+                padding: 20px;
+                margin-bottom: 2px;
+                background: $summaryboxcolor;
+                border-radius: 4px;
+            }
+
+            .secondexchange {
+                padding: 20px;
+                background: $summaryboxcolor2;
+                border-radius: 4px;
+            }
+
+            .amount {
+                padding-right: $p-r-10;
+            }
+
+            .c1,
+            .per,
+            .fa-alarm-clock {
+                padding-right: $p-r-5;
+            }
+
+            .totalexchange.col-lg-12 {
+                background: $total;
+                color: $white;
+                padding: 10px;
+                min-height: 60px;
+                line-height: 40px;
+            }
+        }
+
+        .USD {
+            background-image: url("https://demos.creative-tim.com/argon-dashboard-pro/assets/img/icons/flags/US.png");
+            height: 20px;
+            width: 20px;
+            float: left;
+            margin-right: 5px
+        }
+
+        .GBP {
+            background-image: url("https://catamphetamine.gitlab.io/country-flag-icons/3x2/GB.svg");
+            height: 20px;
+            width: 20px;
+            float: left;
+            margin-right: 5px
+        }
+
+        .SGD {
+            background-image: url("https://catamphetamine.gitlab.io/country-flag-icons/3x2/SG.svg");
+            height: 20px;
+            width: 20px;
+            float: left;
+            margin-right: 5px
+        }
+
+        .CAD {
+            background-image: url("https://catamphetamine.gitlab.io/country-flag-icons/3x2/CA.svg");
+            height: 20px;
+            width: 20px;
+            float: left;
+            margin-right: 5px
+        }
+
+        .JPY {
+            background-image: url("https://catamphetamine.gitlab.io/country-flag-icons/3x2/JP.svg");
+            height: 20px;
+            width: 20px;
+            float: left;
+            margin-right: 5px
+        }
+
+        .AUD {
+            background-image: url("https://catamphetamine.gitlab.io/country-flag-icons/3x2/AT.svg");
+            height: 20px;
+            width: 20px;
+            float: left;
+            margin-right: 5px
+        }
+
+        .EUR {
+            background-image: url("https://catamphetamine.gitlab.io/country-flag-icons/3x2/EU.svg");
+            height: 20px;
+            width: 20px;
+            float: left;
+            margin-right: 5px
+        }
+
+        .cryptoimg {
+            height: 20px;
+            width: 20px;
+            float: left;
+            margin-right: 5px
+        }
+
+
+
+    }
+}

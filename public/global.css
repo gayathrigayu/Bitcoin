@@ -1,0 +1,140 @@
+main {
+	text-align: center;
+	padding: 1em;
+	max-width: 1400px;
+	margin: 0 auto; }
+	@media (max-width: 1200px) {
+	  main {
+		max-width: none; } }
+	main .sel_tab {
+	  display: inline-block;
+	  flex-wrap: wrap;
+	  max-width: 1400px;
+	  width: 100%;
+	  text-align: center;
+	  margin: 30px; }
+	  main .sel_tab label {
+		text-align: left;
+		margin-bottom: 10px; }
+	  main .sel_tab .flag-return {
+		cursor: pointer; }
+	  main .sel_tab .dropdown-toggle {
+		text-align: left; }
+	  main .sel_tab .dropdown-toggle:after {
+		float: right;
+		margin-top: 10px; }
+	main html,
+	main body {
+	  position: relative;
+	  width: 100%;
+	  height: 100%; }
+	main body {
+	  color: #333;
+	  margin: 0;
+	  padding: 8px;
+	  box-sizing: border-box;
+	  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
+	main a:hover {
+	  text-decoration: underline; }
+	main a:visited {
+	  color: #333; }
+	main label {
+	  display: block; }
+	main input,
+	main button,
+	main select,
+	main textarea {
+	  font-family: inherit;
+	  font-size: inherit;
+	  -webkit-padding: 0.4em 0;
+	  padding: 0.4em;
+	  margin: 0 0 0.5em 0;
+	  box-sizing: border-box;
+	  border: 1px solid #ccc;
+	  border-radius: 2px; }
+	main input:disabled {
+	  color: #ccc; }
+	main button {
+	  background-color: #ccc;
+	  border: 0;
+	  color: #0a1562; }
+	main .flag-return {
+	  padding: 10px; }
+	  main .flag-return img {
+		float: left; }
+	  main .flag-return button {
+		display: contents; }
+	main .exchange {
+	  margin: 10px;
+	  text-align: left; }
+	  main .exchange .firstexchange {
+		padding: 10px;
+		margin-bottom: 2px;
+		background: #e1e7f3;
+		border-radius: 4px; }
+	  main .exchange .secondexchange {
+		padding: 10px;
+		background: #d0d8e9;
+		border-radius: 4px; }
+	  main .exchange .amount {
+		padding-right: 10px; }
+	  main .exchange .c1,
+	  main .exchange .per,
+	  main .exchange .fa-alarm-clock {
+		padding-right: 5px; }
+	  main .exchange .totalexchange.col-lg-12 {
+		background: #141440;
+		color: #fff;
+		padding: 10px;
+		min-height: 60px;
+		line-height: 40px; }
+	main .USD {
+	  background-image: url("https://demos.creative-tim.com/argon-dashboard-pro/assets/img/icons/flags/US.png");
+	  height: 20px;
+	  width: 20px;
+	  float: left;
+	  margin-right: 5px; }
+	main .GBP {
+	  background-image: url("https://catamphetamine.gitlab.io/country-flag-icons/3x2/GB.svg");
+	  height: 20px;
+	  width: 20px;
+	  float: left;
+	  margin-right: 5px; }
+	main .SGD {
+	  background-image: url("https://catamphetamine.gitlab.io/country-flag-icons/3x2/SG.svg");
+	  height: 20px;
+	  width: 20px;
+	  float: left;
+	  margin-right: 5px; }
+	main .CAD {
+	  background-image: url("https://catamphetamine.gitlab.io/country-flag-icons/3x2/CA.svg");
+	  height: 20px;
+	  width: 20px;
+	  float: left;
+	  margin-right: 5px; }
+	main .JPY {
+	  background-image: url("https://catamphetamine.gitlab.io/country-flag-icons/3x2/JP.svg");
+	  height: 20px;
+	  width: 20px;
+	  float: left;
+	  margin-right: 5px; }
+	main .AUD {
+	  background-image: url("https://catamphetamine.gitlab.io/country-flag-icons/3x2/AT.svg");
+	  height: 20px;
+	  width: 20px;
+	  float: left;
+	  margin-right: 5px; }
+	main .EUR {
+	  background-image: url("https://catamphetamine.gitlab.io/country-flag-icons/3x2/EU.svg");
+	  height: 20px;
+	  width: 20px;
+	  float: left;
+	  margin-right: 5px; }
+	main .cryptoimg {
+	  height: 20px;
+	  width: 20px;
+	  float: left;
+	  margin-right: 5px; }
+  
+  /*# sourceMappingURL=global.css.map */
+  
