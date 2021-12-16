@@ -227,7 +227,7 @@
 						<input class="col-lg-12" bind:value={currencyAmount} placeholder="Get Amount" disabled="true">
 						</Col>
 						<Col class="col-lg-6">
-						<label class="col-lg-12">Currency</label>
+						<label for="currencyval" class="col-lg-12">Currency</label>
 						<Dropdown triggerElement={dropdownTrigger}>
 							<button
 								type="button"
