@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "rollup -c",
+     "sassgelcustom": "node-sass src/sass/app.scss  public/build/css/bundle.css  --source-map true --output-style compressed --source-map-contents true",
+    "build": "sassgelcustom rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear"
   },
